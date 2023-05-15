@@ -1,0 +1,29 @@
+{
+  "name": "Visual Thinking Chat",
+  "version": "1.0.0",
+  "description": "A barebones chat app.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ju5tu5/barebonechat.git"
+  },
+  "keywords": [
+    "express",
+    "socket.io"
+  ],
+  "author": "Robin van der Heijden",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Robin1224/connecting-people-my-first-chatroom/issues"
+  },
+  "homepage": "https://github.com/Robin1224/connecting-people-my-first-chatroom/",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}
